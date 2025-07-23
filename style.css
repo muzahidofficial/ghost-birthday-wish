@@ -427,7 +427,7 @@ body {
 }
 .decorate_flower--one{
     position: absolute;
-    top: 250px;
+    top: 290px;
     left: 50px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;

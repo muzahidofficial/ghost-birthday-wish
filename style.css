@@ -353,7 +353,7 @@ body {
 }
 .right .balloon_two {
     position: absolute;
-    top: 190px;
+    top: 120px;
     right: -65px;
     z-index: -1;
     animation: balloon2 3s infinite ease-in-out; /* Increased duration for smoother effect */

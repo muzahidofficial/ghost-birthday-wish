@@ -351,27 +351,32 @@ body {
         transform: rotate(-3deg);
     }
 }
-.right .balloon_two{
+.right .balloon_two {
     position: absolute;
     top: 190px;
     right: -65px;
     z-index: -1;
-    transform: rotate(10deg);
-    animation: balloon2 2s infinite linear;
+    animation: balloon2 3s infinite ease-in-out; /* Increased duration for smoother effect */
 }
+
 @keyframes balloon2 {
-    0%,50%,100%{
+    0%, 100% {
+        transform: translateY(0) translateX(0) rotate(10deg);
         transform-origin: bottom left;
-        transform: rotate(10deg);
     }
-    25%{
+    25% {
+        transform: translateY(-10px) translateX(5px) rotate(7deg);
         transform-origin: bottom left;
-        transform: rotate(7deg);
     }
-    75%{
+    50% {
+        transform: translateY(-20px) translateX(10px) rotate(10deg);
         transform-origin: bottom left;
-        transform: rotate(13deg);
     }
+    75% {
+        transform: translateY(-10px) translateX(5px) rotate(13deg);
+        transform-origin: bottom left;
+    }
+}
 }
 
 .decorate_star{

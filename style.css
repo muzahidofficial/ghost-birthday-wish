@@ -427,14 +427,14 @@ body {
 }
 .decorate_flower--one{
     position: absolute;
-    top: 290px;
+    top: 220px;
     left: 50px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;
 }
 .decorate_flower--two{
     position: absolute;
-    top: 225px;
+    top: 280px;
     left: 540px;
     transform: scale(0);
     animation: scaleCricle 3s var(--t) forwards ease-in-out;

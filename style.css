@@ -353,7 +353,7 @@ body {
 }
 .right .balloon_two{
     position: absolute;
-    top: 170px;
+    top: 150px;
     right: -65px;
     z-index: -1;
     transform: rotate(10deg);

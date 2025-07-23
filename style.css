@@ -425,20 +425,7 @@ body {
     right: 0;
     bottom: -10px;
 }
-.decorate_flower--one{
-    position: absolute;
-    top: 200px;
-    left: 50px;
-    transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
-}
-.decorate_flower--two{
-    position: absolute;
-    top: 215px;
-    left: 540px;
-    transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
-}
+
 .decorate_flower--three{
     position: absolute;
     top: 150px;
